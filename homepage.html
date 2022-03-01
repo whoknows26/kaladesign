@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KALA DESIGNS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+ background-image: url(https://th.bing.com/th/id/OIP.hZPUQovM8RY8tgQoaShyAQHaE8?w=254&h=180&c=7&o=5&pid=1.7);
+  color: rgb(255, 255, 255);
+}
+
+
+.header h1 {
+  font-size: 80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(104, 99, 99);
+  
+}
+
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 255, 234);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 20%; 
+  flex: 20%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: rgb(255, 255, 255);
+  background-image: url(https://th.bing.com/th/id/OIP.hZPUQovM8RY8tgQoaShyAQHaE8?w=254&h=180&c=7&o=5&pid=1.7);
+  padding: 20px;
+}
+
+
+.fakeimg {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 20px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+.container {
+  align:center;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="font-family:Algerian">KALA DESIGNS</h1>
+  <h3> <i><b> DESIGNS</b> that <b>INSPIRE.</b></i></h3>
+</div>
+
+
+<ul>
+  <li><a href="homepage.html">HOME</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">DESIGNS</a>
+    <div class="dropdown-content">
+ <a href="living room.html">Living Room</a> 
+      <a href="bedroom.html">Bedroom</a>
+      <a href="kitchen.html">Kitchen</a>
+<a href="acc.html">Accessories</a>
+  <li><a href="contactus.html">CONTACT</a></li>
+  <li><a href="aboutus.html">ABOUT</a></li>
+    <li style="float:right"><a href="register form.html" >Sign In</a></li>
+    </div>
+  </li>
+</ul>
+
+
+<h1 align="center" style="font-family:Footlight MT Light"> WELCOME TO OUR SITE </h1><br>
+<font size="+1" align="center">
+<p style="font-family:Times New Roman">Kala Designs is proud to be one of India's most respected luxury interior design practices.<br> Designing houses are challenging and fun as well. <br>Whilst our main focus in exceptional, interior design and interior architecture,we are able to offer our clients a complete turnkey solution from conception through to completion.</p>
+</font>  <br><br>
+<table width=100%>
+   <tr>
+     <td> 
+<div class="container">
+  <img src="https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Living" class="image">
+  <div class="overlay">
+    <div class="text"><a href="living room.html"  style="color:White">Living Room Designs!</a></div>
+  </div>
+</div></td>
+<td>
+  <div class="container">
+    <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Bedroom" class="image">
+    <div class="overlay">
+      <div class="text"><a href="bedroom.html"  style="color:White">Bedroom Room Designs!</a></div>
+    </div>
+  </div></td>
+  <td>
+    <div class="container">
+      <img src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Kitchen" class="image">
+      <div class="overlay">
+        <div class="text"><a href="kitchen.html"  style="color:White">Kitchen Room Designs!</a></div>
+      </div>
+    </div></td>
+  </tr>
+</table>
+<br><br>
+<font size="+2.5 ">
+<p align="center" style="font-family:Footlight MT Light"><b>MORE IDEAS YOU WILL LOVE </b></p>
+<table width=100%>
+  <tr>
+    <td>
+      <img src="https://images.unsplash.com/photo-1596205250168-c3583813eea0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width="360px" height="300px">
+    </td>
+    <td>
+      <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" width="360px" height="300px">
+    </td>
+    <td>
+      <img src="https://images.unsplash.com/photo-1582037928769-181f2644ecb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width="360px" height="300px">
+    </td>
+    <td>
+      <img src="https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" width="360px" height="300px">
+    </td>
+  </tr>
+</table>
+<p align="center"><a href="living room.html" style="color:Black; font-family:Calisto MT"> Explore More...</a></p></font>
+  <br>
+<hr></hr><hr></hr>
+<footer align="center" style="background:#E8E8E8">
+	<font size="+1">
+<p style="font-family:Times New Roman; color:Black" align="center"> <B> © 2022 Kala Designs</b>
+<br> All rights reserved. </p></font>
+</footer>
+</body>
+</html>

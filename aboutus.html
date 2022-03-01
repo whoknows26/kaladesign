@@ -1,0 +1,211 @@
+<html>
+<head>
+	<title> About Us Page </title>
+</head>
+<style>
+
+.header {
+  padding: 10px;
+  text-align: center;
+ background-image: url(https://th.bing.com/th/id/OIP.hZPUQovM8RY8tgQoaShyAQHaE8?w=254&h=180&c=7&o=5&pid=1.7);
+  color: rgb(255, 255, 255);
+}
+
+
+.header h1 {
+  font-size: 80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(104, 99, 99);
+  
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 255, 234);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+</style>
+<body BGCOLOR="#ffeee6">
+<div class="header">
+  <h1 style="font-family:Algerian">KALA DESIGNS</h1>
+  <h3> <i><b> DESIGNS</b> that <b>INSPIRE.</b></i></h3>
+</div>
+
+<ul>
+  <li><a href="homepage.html">HOME</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">DESIGNS</a>
+    <div class="dropdown-content">
+ <a href="living room.html">Living Room</a> 
+      <a href="bedroom.html">Bedroom</a>
+      <a href="kitchen.html">Kitchen</a>
+<a href="acc.html">Accessories</a>
+  <li><a href="contactus.html">CONTACT</a></li>
+  <li><a href="aboutus.html">ABOUT</a></li>
+    <li style="float:right"><a href="register form.html" >Sign In</a></li>
+    </div>
+  </li>
+</ul>
+
+<section>
+<img class="mySlides" src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80" width="100%" height="500">
+<img class="mySlides" src="https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80" width="100%" height="500">
+  <img class="mySlides" src="https://images.unsplash.com/photo-1595187139760-5cedf9ab5850?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=802&q=80" width="100%" height="500">
+  <img class="mySlides" src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%" height="500">
+  <img class="mySlides" src="https://images.unsplash.com/photo-1538430224529-7eceed6ab252?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="100%" height="500">
+  <img class="mySlides" src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" width="100%" height="500">
+</section>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script><br><br><br>
+<table cellpadding="20" cellspacing="15">
+<tr><th>
+<h1 style="font-family:Algerian;">COMPANY OVERVIEW<BR>MODERN & LUXURY<br>
+<h1 style="color:maroon; font-family:castellar;">KALA DESIGNS</h1></th>
+<th align="left" width="50%"><p><font size="+1">We feel that interior design is one of the most important investments you will ever make.<br> Whether your needs are Residential or Commercial Interior Design or Model Home <br>Merchandising, our commitment to your project.</font></P>
+</th></tr>
+<tr><td align="justify"><img src="https://images.unsplash.com/photo-1616594004753-5d4cc030088c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80" width="600" height="350" style="border-radius:40px">
+</td>
+<td background="https://images.unsplash.com/photo-1485627941502-d2e6429a8af0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" style="border-radius:70px"><h1 style="color:#00008B; font-family:castellar;">About Us<H1>
+<Font size="+1">
+<P style="font-family:Times New Roman;"><br>Kala Designs is proud to be one of India’s most respected luxury interior design practices.
+<br><br>Over the past 3 years, our dynamic team has developed an invaluable reputation for creating elegant, sophisticated and timeless interiors for private clients across the globe.
+<br><br>Our portfolio also includes prestigious developments and projects in the luxury home interiors.</font></p>
+</td>
+<tr>
+<td background="https://images.unsplash.com/photo-1505085702750-96d89f461398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" style="border-radius:70px"><h1 style="color:#00008B; font-family:castellar;" align="right">Our Approach<H1>
+<FOnt size="+1">
+<P style="font-family:Times New Roman;"><br>This studio creates luxurious, yet liveable, residences and strives to deliver exceptionally high, personalised levels of service – values which lie at the very heart of our business.
+
+<br><br>Principally residential specialists, private client projects include town houses and apartments, etc.
+<br><br>Kala Designs is focused on specialist craftsmanship and championing Indian design. We are proud to say that all of our sourcing is done in the India and by specialist artisans and suppliers.</font></p>
+<td align="justify"><img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" width="600" height="350" style="border-radius:40px">
+</td></tr>
+<tr>
+<td align="justify"><img src="https://images.unsplash.com/photo-1598546720078-8659863bc47d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width="600" height="350" style="border-radius:40px"></td>
+<td background="https://images.unsplash.com/photo-1495877893166-832fc3c92881?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=719&q=80" style="border-radius:70px"><h1 style="color:#00008B; font-family:castellar;">Our Services</H1>
+	<FOnt size="+1">
+	<P style="font-family:Times New Roman;"><br><br><br>
+<b>Whilst our main focus in exceptional<br> interior design and interior architecture, <br>we are able to offer our clients a complete turnkey solution <br>from conception through to completion.
+</b></p></font></td></tr>
+</table>
+<br><br><br>
+<table style="width=100%">
+	<tr align="center" style="font-family:Engravers MT">
+		<th style="width:300px"><marquee scrollamount="10" width=30%>
+			<font size="+5"><b>3</b></font></marquee>
+		</th>
+		<td style="width:500px"> <marquee scrollamount="10" width=30%>
+			<font size="+5"><b>5K </b></font></marquee>
+		</td>
+		<td style="width:500px"> <marquee scrollamount="10" width=30%>
+			<font size="+5"><b>5</b></font></marquee>
+		</td>
+		<td style="width:500px"> <marquee scrollamount="10" width=30%>
+			<font size="+5"><b>4</b></font></marquee>
+		</td></b>
+	</tr>
+
+	<tr align="center" style="font-family:High Tower Text">
+		<td style="width:500px"> 
+			<font size="+2"><b> Years of <br> Experience</b></font>
+		</td>
+		<td style="width:500px"> 
+			<font size="+2"><b> Customers </b></font>
+		</td>
+		<td style="width:500px"> 
+			<font size="+2"><b>Branches <br> Worldwide </b></font>
+		</td>
+		<td style="width:500px"> 
+			<font size="+2"><b>Awards <br> Hold in hands</b></font>
+		</td>
+	</tr>
+</table><br><br><br>
+<table cellpadding="20" cellspacing="15">
+<tr>
+<th background="https://images.unsplash.com/photo-1485627941502-d2e6429a8af0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" style="border-radius:70px" width="600"><h1 style="color:#00008B; font-family:castellar;" align="right">Our Team</H1>
+<FOnt size="+1">
+	<P style="font-family:Times New Roman;" align="right"><br><br><br>
+The luxury interior designers within the Kala Designs<br> team work collaboratively with local artists <br>to commission works and with Indian artisans<br> to realise our clients’ aspirations.</font></th>
+<th align="right"><img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" width="600" height="350" style="border-radius:40px">
+</th>
+</tr></table>
+<br><br><br><br>
+<p align="center" style="background:#E8E8E8; font-family:Times New Roman"> <font size="+3">Discuss Your Project</font>
+<br><br>We invite you to make contact with our interior<br>design studio to collaborate or enquire about a<br> project.
+<br><br>
+<a href="mailto:kaladesign01@gmail.com">kaladesign01@gmail.com</a><br>
+<br><a href="https://instagram.com"><img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" width="50" height="50" style="border-radius:25px"><br>@kaladesigns01</a><br><br>
+</p>
+<br><br>
+<hr><hr>
+<footer>
+<font size="+1">
+<p style="font-family:Times New Roman; color:Black" align="center"><B>© 2022 Kala Designs</b>
+<br> All rights reserved. </p></font>
+</footer>
+</body>
+</html>
